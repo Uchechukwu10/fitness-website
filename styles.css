@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#header {
+  background-image: url(images/banner.jpg);
+  height: 87vh;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-nav li a {
+  float: right;
+  color: #fff !important;
+}
+.navbar-brand img, #footer span img{
+  width: 40px;
+  position: relative;
+  bottom: 5px;
+}
+.navbar-brand span {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+nav .fa-bars {
+  color: #fff;
+  font-size: 26px;
+}
+
+/************Welcome Text***********/
+.welcome {
+  padding: 50px 50px;
+  margin-top: -140px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.welcome h1 {
+  color: #333;
+}
+
+.welcome .home-btn {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #013f;
+}
+.welcome .btn:focus {
+  box-shadow: none;
+}
+
+/********About Us*********/
+#about {
+  padding: 100px 0;
+}
+#about .col-md-6{
+  padding: 20px 10px;
+}
+#about h3 {
+  margin: 20px auto;
+}
+#about .run {
+  height: 350px;
+}
+
+/***********Services***************/
+#services {
+  background-color: #efefef;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#services .col-md-4 {
+  padding: 20px;
+}
+#services .col-md-4 h4{
+  padding: 5px;
+}
+#services .col-md-4 img{
+  width: 50px;
+}
+#services .col-md-4 p {
+  padding: 5px;
+  text-align: justify;
+}
+
+/*************Features************/
+#features {
+  padding: 100px 0;
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/feature-background.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+#features .col-md-6 {
+  padding: 30px 0 0;
+}
+
+#features .couple-gym {
+  opacity: 50%;
+}
+.feature-box {
+  height: 120px;
+  margin-bottom: 50px;
+  padding-left: 5px;
+}
+.feature-box .feature-left {
+  height: 120px;
+  width: 20%;
+  float: left;
+}
+.feature-box .feature-left .fas {
+  padding-top: 13px;
+  font-size: 3rem;
+}
+.feature-box .feature-right {
+  height: 120px;
+  width: 80%;
+  float: left;
+}
+.feature-box .feature-right h4 {
+  padding-left: 15px;
+  text-align: left;
+}
+.feature-box .feature-right p {
+  padding-bottom: 10px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+/*********Testimonials*****/
+#testimonials {
+  padding: 100px 0;
+}
+#testimonials .col-md-4 {
+  padding: 10px 30px;
+}
+#testimonials img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-left: -30px;
+  margin-top: -70px;
+  border: 5px solid #fff;
+}
+.review {
+  font-size: 1rem;
+  padding: 10px 10px 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+}
+.review .fa-twitter {
+  color: #013f7e;
+}
+#testimonials span {
+  color: #013f7e;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+#testimonials h1 {
+  margin-bottom: 20px;
+  color: #013f7e;
+}
+#testimonials p {
+  padding-bottom: 30px;
+}
+#testimonials .middle{
+  margin-top: -50px;
+}
+
+@media only screen and (max-width: 600px) {
+  #testimonials .middle{
+    margin-top: 0;
+  }
+}
+
+/*************Subscribe**************/
+.subscribe {
+  padding: 50px 20px;
+  background-color: #013f7e;
+  position: relative;
+  box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+  margin-bottom: -150px;
+}
+.subscribe h3, .subscribe p {
+  color: #fff;
+}
+.subscribe .input-group {
+  border-radius: 30px;
+  background: #fff;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 5px;
+}
+.subscribe .form-control {
+  border: none;
+  background: transparent;
+}
+.subscribe .form-control:focus {
+  box-shadow: none;
+  background: transparent;
+}
+.subscribe .input-group-append {
+  background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+  border-radius: 30px;
+}
+.subscribe .input-group-text {
+  background: transparent;
+  border: none;
+  color: white;
+}
+.subscribe .btn:focus {
+  box-shadow: none;
+}
+
+
+/***********Footer Section************/
+#footer span span {
+  color: #013f7e;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+#footer span img{
+  width: 40px;
+  position: relative;
+  bottom: 5px;
+}
+
+#footer {
+  margin-top: 80px;
+  padding: 100px;
+  background-color: #efefef;
+  color: #013f7e;
+}
+#footer .brand-text {
+  text-align: center;
+}
+
+#footer h1 {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0 0 25px;
+}
+#footer p {
+  font-size: 0.9rem;
+  text-align: left;
+}
+#footer .city {
+  margin-left: 35px;
+}
+#footer .fab, #footer .fas {
+  padding-right: 20px;
+  font-size: 1rem;
+}
+#footer hr {
+  margin-top: 10px;
+}
+#footer .copyright {
+  text-align: center;
+  margin-bottom: -80px;
+  font-size: 15px;
+}
